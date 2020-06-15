@@ -1,0 +1,18 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "my portfolio",
+  "main": "index.js",
+  "scripts": {
+    "start": "node template/dark/index.js",
+    "dev": "node template/dark/index.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.3",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+
+  "author": "chukwurah somtoo",
+  "license": "ISC"
+}
