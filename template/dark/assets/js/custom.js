@@ -955,6 +955,7 @@
     function viewAllWork() {
         const $view = $( ".view-all" );
         if ( $view.length <= 0 ) return;
+        let $img = $("#imageToHide")
         const $classes = "dsn-show-work",
             $classes_active = "dsn-active",
             $classes_active_enter = "dsn-active-enter",
@@ -963,6 +964,7 @@
 
         $view.on( "click", function () {
             body.toggleClass( $classes );
+            $img.toggle()
         } );
 
 

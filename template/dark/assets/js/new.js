@@ -4,3 +4,4 @@ $('a.openTwoLinks').click(function (e) {
     window.open('https://documenter.getpostman.com/view/4362857/SztK35Rc?version=latest')
     window.open(location.href = "/project9","_self")
 })
+
