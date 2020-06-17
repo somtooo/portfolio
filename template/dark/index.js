@@ -26,6 +26,10 @@ app.get("/about", function(req, res) {
     res.render("about.ejs");
 });
 
+app.get("/sitemap.xml", function (req,res) {
+    res.sendFile(path.join(__dirname,'/views/sitemap.xml'))
+
+})
 
 
 
